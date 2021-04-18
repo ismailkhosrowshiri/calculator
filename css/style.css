@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+body{
+    background-color: #e6e6e6;
+    width: 400px;
+    height: 400px;
+
+
+}
+#title{
+    float: left;
+}
+#headerbtn{
+
+   
+    display: inline-block;
+}
+#minbtn{
+    background: center center no-repeat  url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAPCAYAAAA71pVKAAAABmJLR0QA/wD/AP+gvaeTAAAALUlEQVQokWNgGAX0A4xQWoKBgYGDBH0/GBgYXsA4BxgYGP6TgA9QzeZRQA8AAP3vEHhGTdJFAAAAAElFTkSuQmCC');
+
+}
+#maxbtn{
+    background: center center no-repeat url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAAAS0lEQVQ4jWNgGGjAiMR2gGJiwAEoZmAiwwAUdSxYTG4gYACKPBMuVcSCUQMGgwHo6cCBgXA6cGCApkIGBgYGZjIsfQA14AEZemkAACm/CR1y4eLyAAAAAElFTkSuQmCC');
+    float: right;
+    width: 50px;
+    height: 25px;
+    border: 0;
+    
+}
+#closebtn{
+    
+    background: center center no-repeat;
+    position: absolute;
+    border: none;
+    width: 50px ;
+    height: 25px;
+   
+}
+#navbar{
+
+    float: right;
+}

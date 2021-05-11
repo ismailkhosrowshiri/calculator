@@ -71,24 +71,22 @@ html,body{
 .container{
     width: 100vw;
     height: calc(100% - 6vh);
-    display: flex;
-    flex-flow: row nowrap;
+    display: grid;
+    grid-template-columns:76% 24% ;
     background-color: aqua;
-    justify-content: space-between;
+   
 
 }
 /* right side */
  .right-side{
-    display: flex;
-    flex-flow: row nowrap;
-    width: 24%;
+     
+
     height: 100%;
-    direction: rtl;
     background-color: rgb(67, 73, 85);
    
  
 }
-.right-side-header{
+ .right-side-header{
      display: flex;
      flex-flow: row nowrap;
      padding: 2px 10px 2px 2px;
@@ -99,7 +97,7 @@ html,body{
 .history-text{
     display: flex;
     flex-flow: row nowrap;
-    padding: 2px 0px 2px 0px ;
+    padding: 2px 5px 2px 0px ;
     margin-right: 5px;
     border-bottom: rgb(37, 133, 243) 3px solid;
     direction: ltr;
@@ -107,8 +105,8 @@ html,body{
 }
 .memory-text{
 
-    padding: 2px 5px 2px 0px;
-    padding-left: 5px;
+    padding: 3px 5px 2px 5px;
+    
     margin-left: 5px;
     direction: ltr;
     display: flex;
@@ -116,26 +114,22 @@ html,body{
 }
 
 .right-side-text{
-    display: flex;
-    flex-flow: column nowrap;
-    direction: ltr;
+    
     padding: 5px 2px;
     margin-left:5px;
 }
-.r-text{
-    display: block;
-}/*
+
 
     /* left side*/
  .left-side{
     height: 100%;
-    width: 76%;
+    
     background-color: crimson;
-    display: flex;
-    flex-flow: row nowrap;
-    direction: ltr;
-    align-items: flex-start;   
-}
+    /* display: flex; */
+    /* flex-flow: row nowrap; */
+    /* direction: ltr; */
+    /* align-items: flex-start;    */
+/* }
 .showcase{
     
     width: 100%;
@@ -200,4 +194,4 @@ html,body{
     background-color: chartreuse;
     direction: ltr;
     
-}  
+}   */

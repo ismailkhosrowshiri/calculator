@@ -1,5 +1,8 @@
 :root{
     --color-primary:#e6e6e6;
+    --color-hover:#d1d1d1;
+    --clolor-btn-num:#fafafa;
+    --color-btn-other:#f0f0f0;
 }
 *{
     box-sizing: border-box;
@@ -51,6 +54,9 @@ html,body{
     justify-items: center;
     
 }
+.btn-header2:hover{
+    background-color: var(--color-hover);
+}
 .restoreup{
     justify-content: center;
     justify-items: center;
@@ -67,6 +73,9 @@ html,body{
     justify-content: center;
     padding: 7px 15px 3px 15px;
     justify-items: center;
+}
+.btn-header4:hover{
+    background-color: var(--color-hover);
 }
 .minus{
     justify-content: center;
@@ -154,12 +163,12 @@ html,body{
 }
 
 .hamburger-menu{    
-    padding:  10px;
+    padding:  10px 10px 12px 10px;
     margin-top: 10px;
 
 }
 .hamburger-menu:hover{    
-   background-color: rgba(10,95,70,.7);
+   background-color: var(--color-hover);
 
 }
 .hamburger-menu-img{
@@ -183,7 +192,7 @@ html,body{
   
 }
 .keep-btn:hover{    
-    background-color: rgba(10,95,70,.7);
+    background-color:var(--color-hover);
 }
 .keep-btn-img{
     width: 18px;
@@ -213,9 +222,33 @@ html,body{
     flex-flow: row nowrap;
     align-items: flex-end;
 }
+.memory-btn-style div{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
 .memory-btn-style{
-    padding: 5px ;
-    margin: 5px 25px 2px 25px;
+    padding: 10px 32px 12px 32px ;
+    margin: 5px 0px 0px 0px;
+    font-size: 13px;
+    font-weight: 700;
+    
+}
+
+.memory-btn3:hover{
+    background-color: var(--color-hover);
+}
+.memory-btn4:hover{
+    background-color: var(--color-hover);
+}
+.memory-btn5:hover{
+    background-color: var(--color-hover);
+}
+.memory-btn1 ,.memory-btn2{
+    color: #818181;
 }
 .btn-area{
     justify-content: center;
@@ -240,16 +273,19 @@ html,body{
 }
 .first-row-btn2{
     grid-area: first-row-btn2;
+    font-size: 18px;
+    font-weight: 700;
 }
 .first-row-btn3{
     grid-area: first-row-btn3;
+    font-size: 18px;
+    font-weight: 700;
 }
 .first-row-btn4{
     grid-area: first-row-btn4;
 }
 .first-row-btn5{
     grid-area: first-row-btn5;
-    background-color: aqua;
 }
 .secend-row-btn1{
     grid-area: secend-row-btn1;
@@ -282,8 +318,7 @@ html,body{
     grid-area: third-row-btn5;
 }
 .fourth-row-btn1{
-    grid-area: fourth-row-btn1;
-    
+    grid-area: fourth-row-btn1;  
 }
 .fourth-row-btn2{
     grid-area: fourth-row-btn2;
@@ -308,13 +343,42 @@ html,body{
 }
 .fifth-row-btn4{
     grid-area: fifth-row-btn4;
+    font-size: 26px;
+    font-weight: 700;
 }
 .fifth-row-btn5{
     grid-area: fifth-row-btn5;
 }
-.first-row , .secend-row , .third-row,
-.fourth-row , .fifth-row{
-    justify-self: center;
-    align-self: center;
-    
+.btn-area div{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.color-btn{
+    background-color: var(--clolor-btn-num);
+    font-size: 26px;
+    font-weight: 700;
+}
+.color-btn:hover{
+    background-color: var(--color-hover);
+}
+.color-secondary{
+    background-color: var(--color-btn-other);
+}
+.color-secondary:hover{
+    background-color: var(--color-hover);
+}
+.x-resize{
+    height: 82px;
+    width: 122px;
+}
+.inc-dic-resize{
+    height: 27px;
+    width: 30px;
+}
+.percent-btn{
+    width: 24px;
+    height: 24px;
 }
